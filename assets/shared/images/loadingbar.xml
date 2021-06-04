@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="loadingbar.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="loadingbar10000" x="0" y="0" width="11" height="37" frameX="-29" frameY="0" frameWidth="69" frameHeight="37"/>
+	<SubTexture name="loadingbar10001" x="11" y="0" width="25" height="37" frameX="-22" frameY="0" frameWidth="69" frameHeight="37"/>
+	<SubTexture name="loadingbar10002" x="36" y="0" width="27" height="37" frameX="-21" frameY="0" frameWidth="69" frameHeight="37"/>
+	<SubTexture name="loadingbar10003" x="63" y="0" width="37" height="37" frameX="-16" frameY="0" frameWidth="69" frameHeight="37"/>
+	<SubTexture name="loadingbar10004" x="100" y="0" width="55" height="37" frameX="-7" frameY="0" frameWidth="69" frameHeight="37"/>
+	<SubTexture name="loadingbar10005" x="155" y="0" width="69" height="37"/>
+	<SubTexture name="loadingbar100000" x="224" y="0" width="1037" height="37" frameX="-53" frameY="0" frameWidth="1143" frameHeight="37"/>
+	<SubTexture name="loadingbar100001" x="0" y="37" width="1053" height="37" frameX="-45" frameY="0" frameWidth="1143" frameHeight="37"/>
+	<SubTexture name="loadingbar100002" x="0" y="74" width="1073" height="37" frameX="-35" frameY="0" frameWidth="1143" frameHeight="37"/>
+	<SubTexture name="loadingbar100003" x="0" y="111" width="1093" height="37" frameX="-25" frameY="0" frameWidth="1143" frameHeight="37"/>
+	<SubTexture name="loadingbar100004" x="0" y="148" width="1113" height="37" frameX="-15" frameY="0" frameWidth="1143" frameHeight="37"/>
+	<SubTexture name="loadingbar100005" x="0" y="185" width="1143" height="37"/>
+	<SubTexture name="loadingbar20000" x="1143" y="185" width="121" height="37" frameX="-29" frameY="0" frameWidth="179" frameHeight="37"/>
+	<SubTexture name="loadingbar20001" x="1264" y="185" width="133" height="37" frameX="-23" frameY="0" frameWidth="179" frameHeight="37"/>
+	<SubTexture name="loadingbar20002" x="1397" y="185" width="147" height="37" frameX="-16" frameY="0" frameWidth="179" frameHeight="37"/>
+	<SubTexture name="loadingbar20003" x="1544" y="185" width="161" height="37" frameX="-9" frameY="0" frameWidth="179" frameHeight="37"/>
+	<SubTexture name="loadingbar20004" x="1705" y="185" width="171" height="37" frameX="-4" frameY="0" frameWidth="179" frameHeight="37"/>
+	<SubTexture name="loadingbar20005" x="0" y="222" width="179" height="37"/>
+	<SubTexture name="loadingbar30000" x="179" y="222" width="221" height="37" frameX="-33" frameY="0" frameWidth="287" frameHeight="37"/>
+	<SubTexture name="loadingbar30001" x="400" y="222" width="231" height="37" frameX="-28" frameY="0" frameWidth="287" frameHeight="37"/>
+	<SubTexture name="loadingbar30002" x="631" y="222" width="243" height="37" frameX="-22" frameY="0" frameWidth="287" frameHeight="37"/>
+	<SubTexture name="loadingbar30003" x="874" y="222" width="259" height="37" frameX="-14" frameY="0" frameWidth="287" frameHeight="37"/>
+	<SubTexture name="loadingbar30004" x="1133" y="222" width="267" height="37" frameX="-10" frameY="0" frameWidth="287" frameHeight="37"/>
+	<SubTexture name="loadingbar30005" x="1400" y="222" width="287" height="37"/>
+	<SubTexture name="loadingbar40000" x="1687" y="222" width="313" height="37" frameX="-36" frameY="0" frameWidth="385" frameHeight="37"/>
+	<SubTexture name="loadingbar40001" x="0" y="259" width="327" height="37" frameX="-29" frameY="0" frameWidth="385" frameHeight="37"/>
+	<SubTexture name="loadingbar40002" x="327" y="259" width="339" height="37" frameX="-23" frameY="0" frameWidth="385" frameHeight="37"/>
+	<SubTexture name="loadingbar40003" x="666" y="259" width="357" height="37" frameX="-14" frameY="0" frameWidth="385" frameHeight="37"/>
+	<SubTexture name="loadingbar40004" x="1023" y="259" width="369" height="37" frameX="-8" frameY="0" frameWidth="385" frameHeight="37"/>
+	<SubTexture name="loadingbar40005" x="1392" y="259" width="385" height="37"/>
+	<SubTexture name="loadingbar50000" x="0" y="296" width="397" height="37" frameX="-32" frameY="0" frameWidth="461" frameHeight="37"/>
+	<SubTexture name="loadingbar50001" x="397" y="296" width="403" height="37" frameX="-29" frameY="0" frameWidth="461" frameHeight="37"/>
+	<SubTexture name="loadingbar50002" x="800" y="296" width="415" height="37" frameX="-23" frameY="0" frameWidth="461" frameHeight="37"/>
+	<SubTexture name="loadingbar50003" x="1215" y="296" width="435" height="37" frameX="-13" frameY="0" frameWidth="461" frameHeight="37"/>
+	<SubTexture name="loadingbar50004" x="0" y="333" width="445" height="37" frameX="-8" frameY="0" frameWidth="461" frameHeight="37"/>
+	<SubTexture name="loadingbar50005" x="445" y="333" width="461" height="37"/>
+	<SubTexture name="loadingbar60000" x="906" y="333" width="489" height="37" frameX="-24" frameY="0" frameWidth="537" frameHeight="37"/>
+	<SubTexture name="loadingbar60001" x="1395" y="333" width="495" height="37" frameX="-21" frameY="0" frameWidth="537" frameHeight="37"/>
+	<SubTexture name="loadingbar60002" x="0" y="370" width="507" height="37" frameX="-15" frameY="0" frameWidth="537" frameHeight="37"/>
+	<SubTexture name="loadingbar60003" x="507" y="370" width="519" height="37" frameX="-9" frameY="0" frameWidth="537" frameHeight="37"/>
+	<SubTexture name="loadingbar60004" x="1026" y="370" width="529" height="37" frameX="-4" frameY="0" frameWidth="537" frameHeight="37"/>
+	<SubTexture name="loadingbar60005" x="0" y="407" width="537" height="37"/>
+	<SubTexture name="loadingbar70000" x="537" y="407" width="667" height="37" frameX="-34" frameY="0" frameWidth="735" frameHeight="37"/>
+	<SubTexture name="loadingbar70001" x="1204" y="407" width="681" height="37" frameX="-27" frameY="0" frameWidth="735" frameHeight="37"/>
+	<SubTexture name="loadingbar70002" x="0" y="444" width="697" height="37" frameX="-19" frameY="0" frameWidth="735" frameHeight="37"/>
+	<SubTexture name="loadingbar70003" x="697" y="444" width="713" height="37" frameX="-11" frameY="0" frameWidth="735" frameHeight="37"/>
+	<SubTexture name="loadingbar70004" x="0" y="481" width="723" height="37" frameX="-6" frameY="0" frameWidth="735" frameHeight="37"/>
+	<SubTexture name="loadingbar70005" x="723" y="481" width="735" height="37"/>
+	<SubTexture name="loadingbar80000" x="0" y="518" width="749" height="37" frameX="-45" frameY="0" frameWidth="839" frameHeight="37"/>
+	<SubTexture name="loadingbar80001" x="749" y="518" width="757" height="37" frameX="-41" frameY="0" frameWidth="839" frameHeight="37"/>
+	<SubTexture name="loadingbar80002" x="0" y="555" width="791" height="37" frameX="-24" frameY="0" frameWidth="839" frameHeight="37"/>
+	<SubTexture name="loadingbar80003" x="791" y="555" width="811" height="37" frameX="-14" frameY="0" frameWidth="839" frameHeight="37"/>
+	<SubTexture name="loadingbar80004" x="0" y="592" width="823" height="37" frameX="-8" frameY="0" frameWidth="839" frameHeight="37"/>
+	<SubTexture name="loadingbar80005" x="823" y="592" width="839" height="37"/>
+	<SubTexture name="loadingbar90000" x="0" y="629" width="853" height="37" frameX="-40" frameY="0" frameWidth="933" frameHeight="37"/>
+	<SubTexture name="loadingbar90001" x="853" y="629" width="877" height="37" frameX="-28" frameY="0" frameWidth="933" frameHeight="37"/>
+	<SubTexture name="loadingbar90002" x="0" y="666" width="889" height="37" frameX="-22" frameY="0" frameWidth="933" frameHeight="37"/>
+	<SubTexture name="loadingbar90003" x="889" y="666" width="901" height="37" frameX="-16" frameY="0" frameWidth="933" frameHeight="37"/>
+	<SubTexture name="loadingbar90004" x="0" y="703" width="919" height="37" frameX="-7" frameY="0" frameWidth="933" frameHeight="37"/>
+	<SubTexture name="loadingbar90005" x="919" y="703" width="933" height="37"/>
+</TextureAtlas>

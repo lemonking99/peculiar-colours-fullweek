@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="coralieportraits.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="??portrait0000" x="0" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitA0000" x="1000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitA0001" x="2000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitA0002" x="3000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitA0003" x="4000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitB0000" x="1000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitB0001" x="2000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitB0002" x="3000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitB0003" x="4000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitC0000" x="5000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitC0001" x="6000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitC0002" x="7000" y="0" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitC0003" x="0" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitD0000" x="1000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitD0001" x="2000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitD0002" x="3000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitD0003" x="4000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitE0000" x="5000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitE0001" x="6000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitE0002" x="7000" y="1010" width="1000" height="1010"/>
+	<SubTexture name="coralieportraitE0003" x="0" y="2020" width="1000" height="1010"/>
+</TextureAtlas>
