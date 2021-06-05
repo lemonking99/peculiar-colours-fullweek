@@ -1247,16 +1247,6 @@ class PlayState extends MusicBeatState
 	}
 
 
-	function slyCutscene(?dialogueBox:DialogueBox):Void
-	{
-			if(again == false){
-				FlxG.switchState(new VideoState('assets/videos/slycutscene.webm', new PlayState()));
-				again = true;
-			}
-			else if(again == true)
-			add(dialogueBox);
-	}
-
 	function schoolIntro(?dialogueBox:DialogueBox):Void
 	{
 		var black:FlxSprite = new FlxSprite(-100, -100).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.BLACK);
