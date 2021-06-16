@@ -150,27 +150,27 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -63, -74);
-				addOffset("singRIGHT", 64, -8);
-				addOffset("singLEFT", -36, 33);
-				addOffset("singDOWN", -18, -47);
+				addOffset("singUP", 19, -6);
+				addOffset("singRIGHT", -15, -1);
+				addOffset("singLEFT", -58, -3);
+				addOffset("singDOWN", 4, 0);
 
 				playAnim('idle');
 
 			case 'coralie-tired':
 				tex = Paths.getSparrowAtlas('characters/coralie-tired');
 				frames = tex;
-				animation.addByPrefix('idle', 'Dad idle dance', 24);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'Dad idle dance tired', 24);
+				animation.addByPrefix('singUP', 'Dad Sing Note UP tired', 24);
+				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT tired', 24);
+				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN tired', 24);
+				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT tired', 24);
 
 				addOffset('idle');
-				addOffset("singUP", -63, -74);
-				addOffset("singRIGHT", 64, -8);
-				addOffset("singLEFT", -36, 33);
-				addOffset("singDOWN", -18, -47);
+				addOffset("singUP", 20, 7);
+				addOffset("singRIGHT", -18, -3);
+				addOffset("singLEFT", -56, -7);
+				addOffset("singDOWN", -18, -3);
 
 				playAnim('idle');
 

@@ -960,12 +960,12 @@ class PlayState extends MusicBeatState
 				dad.y += 100;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'coralie':
-				dad.x += 64;
-				dad.y -= 8;
+				dad.x += 4;
+				dad.y += 271;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case 'coralie-tired':
-				dad.x += 64;
-				dad.y -= 8;
+				dad.x += 39;
+				dad.y += 271;
 				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 		}
 
@@ -3494,24 +3494,6 @@ class PlayState extends MusicBeatState
 		{
 			// dad.dance();
 		}
-		if (curStep == 500 && curSong == 'quake')
-{
-	remove(dad);
-	var evilTrail = new FlxTrail(dad, null, 1, 24, 0.3, 0.069);
-	add(evilTrail);
-	add(dad);
-}
-
-	if (SONG.song.toLowerCase() == 'demise') 
-{
-	var evilTrail = new FlxTrail(dad, null, 1, 24, 0.3, 0.069);
-	if(curStep == 128)
-	{
-	remove(dad);
-	add(evilTrail);
-	add(dad);	
-	}
-}
 
 
 		// yes this updates every step.

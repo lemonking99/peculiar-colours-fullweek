@@ -34,6 +34,7 @@ class DialogueBox extends FlxSpriteGroup
 	var portraitLeftD:FlxSprite;
 	var portraitLeftE:FlxSprite;
 	var portraitLeftnull:FlxSprite;
+	var portraitLeftnull2:FlxSprite;
 	var portraitRight:FlxSprite;
 	var portraitRightgf:FlxSprite;
 
@@ -171,14 +172,23 @@ class DialogueBox extends FlxSpriteGroup
 		add(portraitLeftE);
 		portraitLeftE.visible = false;
 
-		portraitLeftnull = new FlxSprite(80, 150);
-		portraitLeftnull.frames = Paths.getSparrowAtlas('portraits/coralieportraits', 'shared');
-		portraitLeftnull.animation.addByPrefix('enter', '??portrait', 24, false);
-		portraitLeftnull.setGraphicSize(Std.int(portraitLeftnull.width * PlayState.daPixelZoom * 0.05));
+		portraitLeftnull = new FlxSprite(0, -200);
+		portraitLeftnull.frames = Paths.getSparrowAtlas('portraits/cimage', 'shared');
+		portraitLeftnull.animation.addByPrefix('enter', 'cimage1', 24, false);
+		portraitLeftnull.setGraphicSize(Std.int(portraitLeftnull.width * PlayState.daPixelZoom * 0.21));
 		portraitLeftnull.updateHitbox();
 		portraitLeftnull.scrollFactor.set();
 		add(portraitLeftnull);
 		portraitLeftnull.visible = false;
+
+		portraitLeftnull2 = new FlxSprite(0, -200);
+		portraitLeftnull2.frames = Paths.getSparrowAtlas('portraits/cimage', 'shared');
+		portraitLeftnull2.animation.addByPrefix('enter', 'cimage2', 24, false);
+		portraitLeftnull2.setGraphicSize(Std.int(portraitLeftnull2.width * PlayState.daPixelZoom * 0.21));
+		portraitLeftnull2.updateHitbox();
+		portraitLeftnull2.scrollFactor.set();
+		add(portraitLeftnull2);
+		portraitLeftnull2.visible = false;
 
 		portraitRight = new FlxSprite(700, 200);
 		portraitRight.frames = Paths.getSparrowAtlas('portraits/BF_Dialogue', 'shared');
@@ -329,6 +339,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeft.visible)
 				{
@@ -343,6 +354,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeftB.visible)
 				{
@@ -357,6 +369,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeftC.visible)
 				{
@@ -371,6 +384,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftC.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeftD.visible)
 				{
@@ -384,6 +398,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftC.visible = false;
 				portraitLeftD.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeftE.visible)
 				{
@@ -398,11 +413,27 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitLeftnull.visible)
 				{
 					portraitLeftnull.visible = true;
 					portraitLeftnull.animation.play('enter');
+				}
+
+			case 'dadnull2':
+				portraitRight.visible = false;
+				portraitLeft.visible = false;
+				portraitLeftB.visible = false;
+				portraitLeftC.visible = false;
+				portraitLeftD.visible = false;
+				portraitLeftE.visible = false;
+				portraitLeftnull.visible = false;
+				portraitRightgf.visible = false;
+				if (!portraitLeftnull2.visible)
+				{
+					portraitLeftnull2.visible = true;
+					portraitLeftnull2.animation.play('enter');
 				}
 
 			case 'bf':
@@ -412,6 +443,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRightgf.visible = false;
 				if (!portraitRight.visible)
 				{
@@ -425,6 +457,7 @@ class DialogueBox extends FlxSpriteGroup
 				portraitLeftD.visible = false;
 				portraitLeftE.visible = false;
 				portraitLeftnull.visible = false;
+				portraitLeftnull2.visible = false;
 				portraitRight.visible = false;
 				if (!portraitRightgf.visible)
 				{
