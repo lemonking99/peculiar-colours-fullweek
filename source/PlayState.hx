@@ -2615,10 +2615,22 @@ class PlayState extends MusicBeatState
 				{
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
+					if (storyWeek == 1)
+					{
+						FlxG.save.data.beatenHard = true;
+
+					transIn = FlxTransitionableState.defaultTransIn;
+					transOut = FlxTransitionableState.defaultTransOut;
+
+					FlxG.switchState(new UnlockState());
+					}
+					else
+					{
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
 					FlxG.switchState(new StoryMenuState());
+					}
 
 					#if windows
 					if (luaModchart != null)

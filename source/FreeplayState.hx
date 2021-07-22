@@ -71,6 +71,11 @@ class FreeplayState extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuBGBlue'));
 		add(bg);
 
+		if (FlxG.save.data.beatenHard || isDebug)
+		{
+			addWeek(['Antagonized'], 1, ['coralie-tired']);
+		}
+
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
